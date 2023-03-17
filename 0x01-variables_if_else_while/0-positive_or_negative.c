@@ -3,17 +3,10 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/*
+/**
  *
  *main -Entry point
  *Return: Always 0 (Success)
- *
- *
- *Program assigns a random number to the variable n each time it is executed.
- *Prints whether the number stored in the variable n is positive or negative.
- *
- *
- *
  *
  */
 int main(void)
