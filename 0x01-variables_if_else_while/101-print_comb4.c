@@ -2,7 +2,6 @@
 
 /**
  * main - Writes 001 - 999
- * @void: Empty parameter list for main.
  * Description: Writes all unique combinations
  * of 3 numbers
  * Return: 0 for success
