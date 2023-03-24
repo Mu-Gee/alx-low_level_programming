@@ -1,41 +1,29 @@
+#include "main.h"
 #include <stdio.h>
-
 /**
- * main - program that prints either number
- * or fizz or buzz or fizzBuzz
- * Return: returns 0
- */
+ * main - Fizz-Buzz test
+ *
+ * Description: print numbers 1 -100 replacing multiples of 3 with Fizz,
+ * multiples of 5 with Buzz, and multiples of both with FizzBuzz
+ *
+ * Return: zero
+ **/
 
 int main(void)
 {
-	int num = 1;
+	int i;
 
-	while (num++ < 100)
+	for (i = 1; i < 100; i++)
 	{
-		if ((num % 3 == 0) && (num % 5 == 0))
-		{
+		if (i % 3 == 0 && i % 5 == 0)
 			printf("FizzBuzz ");
-		}
-		else if ((num % 3) == 0)
-		{
+		else if (i % 3 == 0)
 			printf("Fizz ");
-		}
-		else if ((num % 5) == 0)
-		{
-			if (num != 100)
-			{
-				printf("Buzz ");
-			}
-			else
-			{
-				printf("Buzz");
-			}
-		}
+		else if (i % 5 == 0)
+			printf("Buzz ");
 		else
-		{
-			printf("%d", num);
-		}
+			printf("%d ", i);
 	}
-	printf("\n");
+	printf("Buzz\n");
 	return (0);
 }
