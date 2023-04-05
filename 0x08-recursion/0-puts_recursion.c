@@ -5,7 +5,11 @@
  * @s: string to recurse
  */
 
-void _puts_recursion(char *s) /*uses recursion*/
+void _puts_recursion(char *s)
+	/*
+	 * uses recursion
+	 * _puts_recursion - uses recursion
+	 */
 {
 	if (*s)
 	{
