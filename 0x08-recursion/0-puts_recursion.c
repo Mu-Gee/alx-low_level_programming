@@ -9,7 +9,8 @@ void _puts_recursion(char *s)
 	/*
 	 * uses recursion
 	 * _puts_recursion - uses recursion
-	 */
+	 * Description: prints a string, followed by a new line.
+	 * */
 {
 	if (*s)
 	{
