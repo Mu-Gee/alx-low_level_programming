@@ -6,7 +6,7 @@
  * numchecker - verifies if string has only numbers
  * @s: string to check
  * Description: returns 1 if only numbers in string, 0 if not
- * Returns: 1 if only numbers, 0 if not
+ * Return: 1 if only numbers, 0 if not
  **/
 
 int numchecker(char *s)
