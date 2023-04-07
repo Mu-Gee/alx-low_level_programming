@@ -5,7 +5,7 @@
 /**
  * numchecker - verifies if string has only numbers
  * @s: string to check
- * Description: return 1 if only numbers in string, 0 if not
+ * Description: returns 1 if only numbers in string, 0 if not
  * Return: 1 if only numbers, 0 if not
  **/
 
@@ -26,7 +26,7 @@ int numchecker(char *s)
  * @argc: number of parameters entered
  * @argv: strings entered including file name
  * Description: prints the minimum number of coins to make change
- * Returns: 0(zero)
+ * Return: 0(zero)
  **/
 
 int main(int argc, char **argv)
