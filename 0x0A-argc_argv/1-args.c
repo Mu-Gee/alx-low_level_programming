@@ -6,7 +6,7 @@
  * @argc: number of arguments
  * @argv: arguments entered
  * Description: print number of arguments
- * Returns: 0(zero)
+ * Return: 0(zero)
  **/
 
 int main(int argc, char *argv[])
