@@ -54,14 +54,12 @@ int word_count(char *s, int word)
 
 	return (0);
 }
-
 /**
  * strtow - create an array of words from string
  * @str: string
  * Description: create array of words from string, last element should be null
  * Return: pointer to strings, NULL if fails
  **/
-
 char **strtow(char *str)
 {
 	char **list;
