@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * findword - find position of next word
  * @s: string
@@ -95,4 +94,3 @@ char **strtow(char *str)
 	list[i] = NULL;
 	return (list);
 }
-
