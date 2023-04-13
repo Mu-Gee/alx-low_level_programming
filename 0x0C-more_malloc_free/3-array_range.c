@@ -1,14 +1,28 @@
 #include "main.h"
 /**
- * create_array -
- * @size: size of array
- * @c: char to assign
- * Description:
- * Return:
- **/
-char *string_nconcat(char *s1, char *s2, unsigned int n)
+ * array_range - creates an array of integers.
+ * @min: minimum value.
+ * @max: maximum value.
+ * Description: if malloc fails, returns NULL.
+ * Return: pointer to the newly created array.
+ * if man > mix, returns NULL.
+ * if malloc fails, returns NULL.
+ */
+int *array_range(int min, int max)
 {
+	int *ar;
+	int i;
 
+	if (min > max)
+		return (NULL);
 
-	return (0);
+	ar = malloc(sizeof(*ar) * ((max - min) + 1));
+
+	if (ar == NULL)
+		return (NULL);
+
+	for (i = 0; min <= max; i++, min++)
+		ar[i] = min;
+
+	return (ar);
 }
