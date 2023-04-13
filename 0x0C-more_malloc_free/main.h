@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <limits.h>
 
+void reset_to_98(int *n);
 int _strlen(char *s);
 void *malloc_checked(unsigned int b);
 char *string_nconcat(char *s1, char *s2, unsigned int n);
