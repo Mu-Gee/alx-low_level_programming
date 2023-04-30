@@ -1,0 +1,1 @@
+This directory deals with C - More singly linked lists
